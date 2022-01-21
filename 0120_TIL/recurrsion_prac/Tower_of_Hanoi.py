@@ -6,3 +6,4 @@ def tower_of_hanoi(number, a='', b='', c=''):
         return 1
     else:
         
+        return
