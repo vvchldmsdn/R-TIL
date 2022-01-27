@@ -89,7 +89,7 @@
 def dict_invert(my_dict):
     new_dict = {}
     for key, value in my_dict.items():
-        new_dict[value] = new_dict.get(value, []) + [key]  ###
+        new_dict[value] = new_dict.get(value, []) + [key]  ###1.5.2의 if문에 get()의 default값을 이용하여 간소화하기
     return new_dict
 
 
