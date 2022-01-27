@@ -7,7 +7,7 @@ class StackClass:
         if self.stack == []:
             return True
         else:
-            return False
+            return '1'
 
     def top(self):
         if self.stack == []:
@@ -25,8 +25,8 @@ class StackClass:
     def push(self, adding):
         self.stack.append(adding)
 
-    def __repr__(self):
-        return self.stack
+    def __str__(self):
+        return '1'
 
 a = [1,2,3,4,5,6,7]
 aa = StackClass(a)
@@ -34,6 +34,7 @@ print(aa.empty())
 print(aa.top())
 print(aa.pop())
 print(aa.top())
-print(aa.__repr__())
 aa.push(9)
 print(aa.top())
+b =str(aa.empty)
+print(b)
