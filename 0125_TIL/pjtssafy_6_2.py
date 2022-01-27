@@ -1,4 +1,4 @@
-def mass_percent(infos=[]):
+def mass_percent(infos=0):
     c = 0
     infos = []
     while c == 0:

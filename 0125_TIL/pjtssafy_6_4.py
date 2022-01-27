@@ -10,6 +10,8 @@ def group_anagrams(words):
             a.append(words[i][j])
         new_words.append(a)
     
+    print(new_words)
+    
     # 글자들 알파벳 순서대로 정렬하기
     new_words2 = copy.deepcopy(new_words)
 
@@ -20,6 +22,9 @@ def group_anagrams(words):
 
     new_words.sort()
     new_words2.sort()
+
+    print(new_words2)
+    print(new_words)
 
 
     # 그룹핑하기
