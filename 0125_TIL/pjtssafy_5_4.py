@@ -9,7 +9,7 @@ def fn_d(n):
 
 
 
-# 2
+# # 2
 def is_selfnumber(n):
     for i in list(range(1, n + 1)):
         if n == fn_d(i):

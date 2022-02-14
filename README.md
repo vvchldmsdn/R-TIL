@@ -12,3 +12,35 @@
 
 * remote directory에서 파일 변경 **금지**!!
 * VS Code 닫기전에 **terminal 지우고** 닫기!!
+
+
+
+# 알고리즘
+
+## 리스트
+
+**문제 풀 때 항상 이 목록들 중 뭘 쓸 수 있을까 생각하기**
+
+* BubbleSort
+
+* CountingSort
+
+  * 0~9까지 나타나는 숫자 횟수 저장하는 리스트 이용 꼭 생각!!
+    * ex) a = [1,3,5,3,6,7] -> [0,1,0,2,0,1,1,1,0,0]
+
+* 2차원 리스트
+
+  * 행 탐색, 열 탐색, transpose만드는 법, 점대칭, 오른쪽회전, 왼쪽회전
+
+  * 블럭요소 탐색 ex) 2*3행렬로 쪼개기
+
+    ```python
+    ans = []
+    for i in range(3):
+        for j in range(3):
+            a = [row[3*j:3*j+3] for row in sudoku[3*i:3*i+3]]
+            ans.append(a)
+    ```
+
+    
+
